@@ -4,6 +4,7 @@
 - Progam meminta memasukkan data sebanyak-banyaknya (gunakan perulangan) • Tampilkan pertanyaan untuk menambah data (y/t?), apabila jawaban t (Tidak), maka program akan menampilkan daftar datanya. • Nilai Akhir diambil dari perhitungan 3 komponen nilai (tugas: 30%, uts: 35%, uas: 35%) • Buat flowchart dan penjelasan programnya pada README.md. • Commit dan push repository ke github
 # Menggunakan perulangan while
 
+```bash
 membuat list []
 membuat stop = false
 while(tidak berhenti)
@@ -12,9 +13,11 @@ lalu menambah list dengan .append dengan buka kurung seperti dibawah
 membuat kondisi dimana ingin masukan lagi data y/t jika t makan kondisi stop true
 dan akan berhenti.
 dan apabila stop t maka membuat syntax seperti dibawah membuat list dengan rapih menggunakan kondisi string.format
+```
 
 stop = False i = 0 list= [] while(not stop):
 
+```bash
 nama = input("Masukan Nama :")
 nim = input("Masukan NIM : ")
 tugas = int(input("Nilai Tugas : "))
@@ -27,6 +30,7 @@ i+= 1
 tanya = input("Masukan lagi (y/t) : ")
 if(tanya == "t"):
     stop = True
+```    
 
 print("====================================================================================");        
 print("|  No  |     Nama     |     Nim       |  Tugas  |   UTS   |   UAS   |  Nilai Akhir |");
